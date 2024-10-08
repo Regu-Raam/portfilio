@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header-background {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.header-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#about, #portfolio, #contact {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #444;
+}
+
+.profile-photo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 1.1em;
+}
+
+/* Portfolio */
+.project {
+    background-color: #eee;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-default {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+
+.btn-default:hover {
+    background-color: #0056b3;
+}
+
+.outline {
+    background-color: transparent;
+    border: 2px solid #007BFF;
+    color: #007BFF;
+}
+
+.outline:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.red {
+    border-color: #FF0000;
+    color: #FF0000;
+}
+
+.red:hover {
+    background-color: #FF0000;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
